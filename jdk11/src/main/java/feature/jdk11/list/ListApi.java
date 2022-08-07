@@ -5,7 +5,11 @@ import java.util.List;
 
 public class ListApi {
     public static void main(String[] args) {
+
+
         List<String> list = List.of("Java", "Python", "Ruby");
+
+
         // 旧的方法:传入String[]:
         String[] oldway = list.toArray(new String[list.size()]);
 
